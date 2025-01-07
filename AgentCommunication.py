@@ -9,6 +9,7 @@ message AgentCommunication {
   Context context = 8;
 }
 
+
 message Context {
   string conversation_id = 1;
   int64 timestamp = 2;
